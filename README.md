@@ -1,2 +1,2 @@
 # pythonAPI
-Python API development with vertual environment
+Python API development with virtual environment
