@@ -1,3 +1,3 @@
-# pythonAPI 
-Python FastAPI development with virtual environment 
+# pythonAPI
 
+Python FastAPI development with virtual environment
