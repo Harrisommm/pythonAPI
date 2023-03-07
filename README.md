@@ -9,3 +9,6 @@ source venv/bin/activate
 
 ##Set Python Interperter
 ./venv/bin/python
+
+##Server startup
+python3 -m uvicorn app.main:app --reload
