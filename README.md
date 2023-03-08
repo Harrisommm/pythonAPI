@@ -24,5 +24,6 @@ CTRL+C
 >psycopg2  
 >SQLAlchemy 2.0  
 >passlib[bcrypt]  
+>python-jose
 
 
