@@ -12,3 +12,6 @@ source venv/bin/activate
 
 ##Server startup
 python3 -m uvicorn app.main:app --reload
+
+##initiation
+add <**init**py> named file in app folder
