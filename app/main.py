@@ -46,10 +46,10 @@ def find_index_post(id):
 async def root():
     return {"message": "Welcome to my first API server"}
 
-@app.get("/sqlalchemy")
-def test_posts(db: Session = Depends(get_db)):
-    posts = db.query(models.Post).all()
-    return {"data": posts}
+# @app.get("/sqlalchemy")
+# def test_posts(db: Session = Depends(get_db)):
+#     posts = db.query(models.Post).all()
+#     return {"data": posts}
 
 @app.get("/posts")
 def get_posts(db: Session = Depends(get_db)):
