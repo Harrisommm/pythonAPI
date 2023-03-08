@@ -1,13 +1,9 @@
-from typing import Optional, List
-from fastapi import FastAPI, Response, status, HTTPException, Depends
-from fastapi.params import Body
-from pydantic import BaseModel
-from random import randrange
+from fastapi import FastAPI
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import time
 from . import models
-from .database import engine, get_db
+from .database import engine
 from .routers import user, post
 
 models.Base.metadata.create_all(bind=engine)
