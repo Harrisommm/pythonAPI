@@ -5,7 +5,7 @@ from .. import models, schemas, utils
 
 router = APIRouter(
     prefix = "/users",
-    tapgs = ['Users']
+    tags = ['Users']
 )
 
 @router.post("/", status_code = status.HTTP_201_CREATED, response_model = schemas.UserOut)
