@@ -18,3 +18,11 @@ python3 -m uvicorn app.main:app --reload
 
 ## Server termination
 CTRL+C
+
+## Installed Component
+>FastAPI[all]  
+>psycopg2  
+>SQLAlchemy 2.0  
+>passlib[bcrypt]  
+
+
