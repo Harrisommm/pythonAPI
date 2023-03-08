@@ -2,19 +2,19 @@
 
 Python FastAPI development with virtual environment
 
-#SETUP
+# SETUP
 
-##Activate virtual env
+## Activate virtual env
 source venv/bin/activate
 
-##Set Python Interperter
+## Set Python Interperter
 ./venv/bin/python
 
-##initiation
+## initiation
 add <**init**py> named file in app folder
 
-##Server startup
+## Server startup
 python3 -m uvicorn app.main:app --reload
 
-##Terminate server
+## Terminate server
 CTRL+C
