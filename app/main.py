@@ -22,9 +22,10 @@ while True:
         time.sleep(3)
 
 app.include_router(post.router)
-app.include_router(user.router) 
+app.include_router(user.router)
 app.include_router(auth.router)
 
-@app.get("/") 
+
+@app.get("/")
 async def root():
     return {"message": "Welcome to my first API server"}
