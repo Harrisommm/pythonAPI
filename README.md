@@ -24,11 +24,7 @@ python3 -m uvicorn app.main:app --reload
 
 CTRL+C
 
-## Installed Component(venv)
+## Install Components in requirements.txt
+### requirements.txt is a list of all components with versions
 
-> FastAPI[all]  
-> psycopg2  
-> SQLAlchemy 2.0  
-> passlib[bcrypt]  
-> python-jose  
-> alembic
+pip3 install -r requirements.txt
