@@ -31,4 +31,4 @@ CTRL+C
 > SQLAlchemy 2.0  
 > passlib[bcrypt]  
 > python-jose  
-
+> alembic
